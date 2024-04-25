@@ -22,15 +22,12 @@ The data collection process involves utilizing advanced techniques such as Optic
 
 ### 2. Data Cleaning
 
-Extracted data is often unstructured and needs to be converted into a structured format suitable for analysis. This involves using techniques like regular expressions **(regex)** to identify numerical accounting data patterns. The cleaned data is stored in tabular format using the **pandas** library.
+Extracted data is often unstructured and needs to be converted into a structured format suitable for analysis. This involves using techniques like regular expressions **(regex)** to identify numerical accounting data patterns. By employing **feature extraction**, I was able to identify and extract meaningful attributes from the unstructured data, while data **normalization** helped ensure that these features were appropriately scaled for modeling. Together, these preprocessing steps laid the foundation for building a robust and accurate machine learning model for classifying financial entries. The cleaned data is stored in tabular format using the **pandas** library.
 
 ### 3. Model Building
 
-After cleaning and storing the data, each "Item Name" is categorized into respective blocks using the supervised classification technique **random forests**. Features such as "Item Name" and "Reference Account" are used for training the model. There is a reference data set named "ready references" used for some items for training, limited to blocks C through J.
+After cleaning and storing the data, each "Item Name" is categorized into respective blocks using the supervised classification technique **random forests**. Features such as "Item Name" and "Reference Account" are used for training the model. There are reference data set named "ready references" and "solved" used for training the model.
 
-### 4. Handling Block C
-
-Block C contains fixed assets, often supplied in a separate page within the PDF. A separate function is created to scan this page directly. Since the page is usually in landscape orientation, it needs to be converted and rotated before processing. Techniques involving OpenCV and image processing modules are employed for this purpose.
 
 ## Usage
 To use the project, follow these steps:
