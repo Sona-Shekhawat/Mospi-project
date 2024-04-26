@@ -37,6 +37,6 @@ To use the project, follow these steps:
 4. Follow the instructions provided within the scripts/notebooks for data extraction, cleaning, and classification.
 
 ## Result
-Following the final result of the whole process:
+Following is the final result of the whole process:
 
-![Before and After]("https://github.com/Sona-Shekhawat/nlp-project/blob/main/BEFORE.jpg")
+![Before and After]("BEFORE.jpg")
