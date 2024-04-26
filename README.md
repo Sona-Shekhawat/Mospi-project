@@ -39,4 +39,4 @@ To use the project, follow these steps:
 ## Result
 Following is the final result of the whole process:
 
-![Before and After]("BEFORE.jpg")
+<img align="right" src=BEFORE.jpg>
