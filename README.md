@@ -40,3 +40,7 @@ To use the project, follow these steps:
 Following is the final result of the whole process:
 
 <img align="right" src=BEFORE.jpg>
+
+The final dataset not only transforms unstructured data but also intelligently filters out unnecessary information, (for example, we do not need the "non-current assets") extracting the note number of each item name. This note number is used to link to their sub groups, which gives an in detail account of the item in subsequent pages of the pdf. The attribute "block Item" represents the classified data predicted by the machine learning model.
+
+
